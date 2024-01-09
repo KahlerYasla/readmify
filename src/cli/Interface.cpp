@@ -1,36 +1,31 @@
 #include "Interface.h"
-#include "ColoredOutputUtil.h"
-#include "LoadingBar.h"
 
 Interface::Interface()
 {
     // Empty constructor
 }
 
-void Interface::displayStart()
+void Interface::displayCLI()
 {
-    std::string projectName;
+    std::string projectName = "${projectName}";
 
-    printColored("magenta", "Readmify - A tool to generate Readme.md file for your project | github.com/KahlerYasla");
+    printColored("blue", "\nReadmify - A tool to generate Readme.md file for your project | github.com/KahlerYasla");
 
-    std::cout << std::endl;
+    printColored("", "\n••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••");
 
-    LoadingBar loadingBar;
+    std::string pathOfReadme = projectName + "/Readme.md";
 
-    // progress of loading bar
-    int progress = 0;
+    std::cout << "\nYour Readme.md file will be generated at " << pathOfReadme;
 
-    // total number of steps
-    int total = 100;
+    printColored("", "\n••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••\n");
+}
 
-    while (progress < total)
-    {
-        loadingBar.showLoadingBar(total, progress);
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
-        ++progress;
-    }
+void Interface::updateLoadingBar(float progress)
+{
+    loadingBar.displayLoadingBar(100, progress);
+}
 
-    std::cout << std::endl;
-
-    printColored("green", "Your Readme.md file has been generated successfully!");
+void Interface::printResult(std::string result)
+{
+    printColored("blue", result);
 }

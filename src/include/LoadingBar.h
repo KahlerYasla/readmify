@@ -2,8 +2,10 @@
 #include <chrono>
 #include <thread>
 
+#include "ColoredOutputUtil.h"
+
 class LoadingBar
 {
 public:
-    void showLoadingBar(int total, int progress);
+    void displayLoadingBar(int total, int progress);
 };

@@ -5,7 +5,7 @@
 
 #include "ColorMap.h"
 
-void printColored(const std::string color, const std::string str)
+static void printColored(const std::string color, const std::string str)
 {
     if (color == "")
     {

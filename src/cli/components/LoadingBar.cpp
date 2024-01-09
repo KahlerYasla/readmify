@@ -1,23 +1,30 @@
 #include "LoadingBar.h"
 
-void LoadingBar::showLoadingBar(int total, int progress)
+void LoadingBar::displayLoadingBar(int total, int progress)
 {
-    const int barWidth = 80;
+    const int barWidth = 90;
     float percentage = static_cast<float>(progress) / total;
     int filledWidth = static_cast<int>(barWidth * percentage);
 
-    std::cout << "[";
     for (int i = 0; i < barWidth; ++i)
     {
         if (i < filledWidth)
         {
-            std::cout << "=";
+            printColored("blue", "█");
         }
         else
         {
-            std::cout << " ";
+            printColored("blue", "░");
         }
     }
-    std::cout << "] " << static_cast<int>(percentage * 100.0) << "%\r";
+
+    std::cout << " ";
+    printColored("", std::to_string(static_cast<int>(percentage * 100.0)) + "%");
+
+    // clean the line
+    std::cout << "\r";
     std::cout.flush();
+
+    // do not show cursor
+    std::cout << "\e[?25l";
 }
