@@ -1,8 +1,8 @@
-#include <Interface.h>
+#include "Interface.h"
 
 int main()
 {
     Interface interface;
-    interface.displayMenu();
+    interface.displayStart();
     return 0;
 }

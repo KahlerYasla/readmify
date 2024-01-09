@@ -7,11 +7,15 @@ set(CMAKE_CXX_STANDARD 14)
 
 # Add your source files
 set(SOURCE_FILES
+        # Source files
         src/main.cpp
         src/cli/Interface.cpp
+        src/cli/components/LoadingBar.cpp
+
+        # Header files
         src/include/Interface.h
         src/include/ColoredOutputUtil.h
-        # Add other source files here
+        src/constants/ColorMap.h
         )
 
 # Add the executable to the ../bin directory
@@ -25,7 +29,7 @@ set_target_properties(readmify PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURC
 # Add any other necessary configurations
 
 # Add include directory to the include path that is in src/include
-target_include_directories(readmify PRIVATE src/include)
+target_include_directories(readmify PRIVATE src/include src/constants)
 
 # Define a custom target to generate documentation
 add_custom_target(rux

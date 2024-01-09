@@ -1,6 +1,6 @@
-CMakeFiles/readmify.dir/src/cli/Interface.cpp.o: \
-  /Users/kahler/CProjects/readmify/src/cli/Interface.cpp \
-  /Users/kahler/CProjects/readmify/src/include/Interface.h \
+CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.o: \
+  /Users/kahler/CProjects/readmify/src/cli/components/LoadingBar.cpp \
+  /Users/kahler/CProjects/readmify/src/include/LoadingBar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -792,9 +792,4 @@ CMakeFiles/readmify.dir/src/cli/Interface.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/kahler/CProjects/readmify/src/include/ColoredOutputUtil.h \
-  /Users/kahler/CProjects/readmify/src/constants/ColorMap.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
-  /Users/kahler/CProjects/readmify/src/include/LoadingBar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread

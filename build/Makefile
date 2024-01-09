@@ -166,6 +166,30 @@ src/cli/Interface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/cli/Interface.cpp.s
 .PHONY : src/cli/Interface.cpp.s
 
+src/cli/components/LoadingBar.o: src/cli/components/LoadingBar.cpp.o
+.PHONY : src/cli/components/LoadingBar.o
+
+# target to build an object file
+src/cli/components/LoadingBar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.o
+.PHONY : src/cli/components/LoadingBar.cpp.o
+
+src/cli/components/LoadingBar.i: src/cli/components/LoadingBar.cpp.i
+.PHONY : src/cli/components/LoadingBar.i
+
+# target to preprocess a source file
+src/cli/components/LoadingBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.i
+.PHONY : src/cli/components/LoadingBar.cpp.i
+
+src/cli/components/LoadingBar.s: src/cli/components/LoadingBar.cpp.s
+.PHONY : src/cli/components/LoadingBar.s
+
+# target to generate assembly for a file
+src/cli/components/LoadingBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.s
+.PHONY : src/cli/components/LoadingBar.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -203,6 +227,9 @@ help:
 	@echo "... src/cli/Interface.o"
 	@echo "... src/cli/Interface.i"
 	@echo "... src/cli/Interface.s"
+	@echo "... src/cli/components/LoadingBar.o"
+	@echo "... src/cli/components/LoadingBar.i"
+	@echo "... src/cli/components/LoadingBar.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

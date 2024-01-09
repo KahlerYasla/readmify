@@ -1,34 +1,36 @@
 #include "Interface.h"
+#include "ColoredOutputUtil.h"
+#include "LoadingBar.h"
 
 Interface::Interface()
 {
-    // Constructor
-    std::cout << "Interface object created" << std::endl;
+    // Empty constructor
 }
 
-void Interface::displayMenu()
+void Interface::displayStart()
 {
-    std::cout << "----------------------------------------" << std::endl;
-    std::cout << "|               Readmify                |" << std::endl;
-    std::cout << "----------------------------------------" << std::endl;
+    std::string projectName;
 
-    std::string name;
-    std::cout << "Enter your name: ";
-    std::getline(std::cin, name);
+    printColored("magenta", "Readmify - A tool to generate Readme.md file for your project | github.com/KahlerYasla");
 
-    std::string number;
-    std::cout << "Enter your number: ";
-    std::getline(std::cin, number);
+    std::cout << std::endl;
 
-    std::string gender;
-    std::cout << "Enter your gender: ";
-    std::getline(std::cin, gender);
+    LoadingBar loadingBar;
 
-    std::cout << "----------------------------------------" << std::endl;
-    std::cout << "|               Summary                 |" << std::endl;
-    std::cout << "----------------------------------------" << std::endl;
-    std::cout << "Name: " << name << std::endl;
-    std::cout << "Number: " << number << std::endl;
-    std::cout << "Gender: " << gender << std::endl;
-    std::cout << "----------------------------------------" << std::endl;
+    // progress of loading bar
+    int progress = 0;
+
+    // total number of steps
+    int total = 100;
+
+    while (progress < total)
+    {
+        loadingBar.showLoadingBar(total, progress);
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        ++progress;
+    }
+
+    std::cout << std::endl;
+
+    printColored("green", "Your Readme.md file has been generated successfully!");
 }

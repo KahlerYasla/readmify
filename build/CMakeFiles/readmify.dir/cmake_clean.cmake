@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/Users/kahler/CProjects/readmify/bin/readmify.pdb"
   "CMakeFiles/readmify.dir/src/cli/Interface.cpp.o"
   "CMakeFiles/readmify.dir/src/cli/Interface.cpp.o.d"
+  "CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.o"
+  "CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.o.d"
   "CMakeFiles/readmify.dir/src/main.cpp.o"
   "CMakeFiles/readmify.dir/src/main.cpp.o.d"
 )
