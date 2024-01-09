@@ -26,7 +26,7 @@ int main()
     {
         // try to ping the file that is located at the root of the project
         readmeFile.open("Readme.md");
-        std::cout << "•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••\n";
+        printColored("", "••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••\n");
         interface.printResult("Readme.md file generated successfully!\n\n");
     }
     catch (const std::exception &e)
