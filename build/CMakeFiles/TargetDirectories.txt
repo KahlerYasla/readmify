@@ -1,0 +1,4 @@
+/Users/kahler/CProjects/readmify/build/CMakeFiles/readmify.dir
+/Users/kahler/CProjects/readmify/build/CMakeFiles/rux.dir
+/Users/kahler/CProjects/readmify/build/CMakeFiles/edit_cache.dir
+/Users/kahler/CProjects/readmify/build/CMakeFiles/rebuild_cache.dir
