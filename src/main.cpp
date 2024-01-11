@@ -11,6 +11,9 @@
 static float *progress = new float(0.0);
 static Interface interface;
 
+ProjectPrimitiveData g_projectPrimitiveData;
+ProjectStructureTree g_projectStructureTree;
+
 void displayInterface();
 void generateReadme();
 
@@ -58,6 +61,7 @@ void displayInterface()
     while (*progress < 100.0)
     {
         interface.updateLoadingBar(*progress);
+        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     }
 
     interface.updateLoadingBar(100.0);
@@ -70,13 +74,17 @@ void generateReadme()
 {
 #pragma region Extraction of data-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
     // Extract the project primitives
-    // projectPrimitiveData = Extractors::extractProjectPrimitives(progress);
+    g_projectPrimitiveData = Extractors::extractProjectPrimitives(progress);
 
-    // Extract the project structure tree
-    // projectStructureTree = Extractors::extractProjectStructure(progress);
+    // Extract the project structure
+    g_projectStructureTree = Extractors::extractProjectStructure(progress);
 #pragma endregion-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
 
     // Generate the README.md file from the extracted data
+
+    // End of the thread
+    std::this_thread::sleep_for(std::chrono::milliseconds(1500));
+    *progress = 100.0;
 }
 #pragma endregion == == == == == == == == == == == == == == == == == == == == == == == == == == == ==
 //====================================================================================================

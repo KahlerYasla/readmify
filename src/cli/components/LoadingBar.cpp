@@ -18,8 +18,8 @@ void LoadingBar::displayLoadingBar(int total, int progress)
         }
     }
 
-    std::cout << " ";
-    printColored("", std::to_string(static_cast<int>(percentage * 100.0)) + "%");
+    printColored("", " ");
+    printColored("red", std::to_string(static_cast<int>(percentage * 100.0)) + "%");
 
     // clean the line
     std::cout << "\r";

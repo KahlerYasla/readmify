@@ -1,10 +1,13 @@
 #include "Interface.h"
 
+extern ProjectPrimitiveData g_projectPrimitiveData;
+extern ProjectStructureTree g_projectStructureTree;
+
 Interface::Interface()
 {
     // Empty constructor
 }
-
+//----------------------------------------------------------------------------------------------
 void Interface::displayCLI()
 {
     std::string projectName = "${projectName}";
@@ -15,19 +18,19 @@ void Interface::displayCLI()
 
     std::string pathOfReadme = projectName + "/Readme.md";
 
-    printColored("orange", "Your Readme.md file will be generated at: " + pathOfReadme);
+    printColored("orange", "Your Readme.md file will be generated at: " + pathOfReadme + " (root directory of your project)");
 
     printDivider();
 }
-
+//----------------------------------------------------------------------------------------------
 void Interface::displayResult()
 {
     // Project primitives
     printColored("bgOrange", "Project primitives:\n");
 
-    std::string projectName = projectPrimitiveData.projectName;
-    std::string projectDescription = projectPrimitiveData.projectDescription;
-    std::string projectLanguage = projectPrimitiveData.projectLanguage;
+    std::string projectName = g_projectPrimitiveData.projectName;
+    std::string projectDescription = g_projectPrimitiveData.projectDescription;
+    std::string projectLanguage = g_projectPrimitiveData.projectLanguage;
 
     printColored("orange", "Project name: " + projectName + "\n");
     printColored("orange", "Project description: " + projectDescription + "\n");
@@ -36,8 +39,9 @@ void Interface::displayResult()
     printDivider();
 
     // Project structure
+    printColored("bgOrange", "Project structure:\n");
 }
-
+//----------------------------------------------------------------------------------------------
 void Interface::updateLoadingBar(float progress)
 {
     loadingBar.displayLoadingBar(100, progress);

@@ -111,11 +111,71 @@ CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kahler/CProjects/readmify/src/cli/components/LoadingBar.cpp -o CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.s
 
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o: CMakeFiles/readmify.dir/flags.make
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o: /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectDependencies.cpp
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o: CMakeFiles/readmify.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kahler/CProjects/readmify/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o -MF CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o.d -o CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o -c /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectDependencies.cpp
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectDependencies.cpp > CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.i
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectDependencies.cpp -o CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.s
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o: CMakeFiles/readmify.dir/flags.make
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o: /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectPrimitives.cpp
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o: CMakeFiles/readmify.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kahler/CProjects/readmify/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o -MF CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o.d -o CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o -c /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectPrimitives.cpp
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectPrimitives.cpp > CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.i
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectPrimitives.cpp -o CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.s
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o: CMakeFiles/readmify.dir/flags.make
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o: /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectStructure.cpp
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o: CMakeFiles/readmify.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kahler/CProjects/readmify/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o -MF CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o.d -o CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o -c /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectStructure.cpp
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectStructure.cpp > CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.i
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectStructure.cpp -o CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.s
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o: CMakeFiles/readmify.dir/flags.make
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o: /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectFunctions.cpp
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o: CMakeFiles/readmify.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kahler/CProjects/readmify/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o -MF CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o.d -o CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o -c /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectFunctions.cpp
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectFunctions.cpp > CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.i
+
+CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kahler/CProjects/readmify/src/services/extractors/extractProjectFunctions.cpp -o CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.s
+
 # Object files for target readmify
 readmify_OBJECTS = \
 "CMakeFiles/readmify.dir/src/main.cpp.o" \
 "CMakeFiles/readmify.dir/src/cli/Interface.cpp.o" \
-"CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.o"
+"CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.o" \
+"CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o" \
+"CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o" \
+"CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o" \
+"CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o"
 
 # External object files for target readmify
 readmify_EXTERNAL_OBJECTS =
@@ -123,9 +183,13 @@ readmify_EXTERNAL_OBJECTS =
 /Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/src/main.cpp.o
 /Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/src/cli/Interface.cpp.o
 /Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.o
+/Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o
+/Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o
+/Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o
+/Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o
 /Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/build.make
 /Users/kahler/CProjects/readmify/bin/readmify: CMakeFiles/readmify.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kahler/CProjects/readmify/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /Users/kahler/CProjects/readmify/bin/readmify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kahler/CProjects/readmify/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /Users/kahler/CProjects/readmify/bin/readmify"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/readmify.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -214,6 +214,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/services/extractors/extractProjectDependencies.o: src/services/extractors/extractProjectDependencies.cpp.o
+.PHONY : src/services/extractors/extractProjectDependencies.o
+
+# target to build an object file
+src/services/extractors/extractProjectDependencies.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o
+.PHONY : src/services/extractors/extractProjectDependencies.cpp.o
+
+src/services/extractors/extractProjectDependencies.i: src/services/extractors/extractProjectDependencies.cpp.i
+.PHONY : src/services/extractors/extractProjectDependencies.i
+
+# target to preprocess a source file
+src/services/extractors/extractProjectDependencies.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.i
+.PHONY : src/services/extractors/extractProjectDependencies.cpp.i
+
+src/services/extractors/extractProjectDependencies.s: src/services/extractors/extractProjectDependencies.cpp.s
+.PHONY : src/services/extractors/extractProjectDependencies.s
+
+# target to generate assembly for a file
+src/services/extractors/extractProjectDependencies.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.s
+.PHONY : src/services/extractors/extractProjectDependencies.cpp.s
+
+src/services/extractors/extractProjectFunctions.o: src/services/extractors/extractProjectFunctions.cpp.o
+.PHONY : src/services/extractors/extractProjectFunctions.o
+
+# target to build an object file
+src/services/extractors/extractProjectFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o
+.PHONY : src/services/extractors/extractProjectFunctions.cpp.o
+
+src/services/extractors/extractProjectFunctions.i: src/services/extractors/extractProjectFunctions.cpp.i
+.PHONY : src/services/extractors/extractProjectFunctions.i
+
+# target to preprocess a source file
+src/services/extractors/extractProjectFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.i
+.PHONY : src/services/extractors/extractProjectFunctions.cpp.i
+
+src/services/extractors/extractProjectFunctions.s: src/services/extractors/extractProjectFunctions.cpp.s
+.PHONY : src/services/extractors/extractProjectFunctions.s
+
+# target to generate assembly for a file
+src/services/extractors/extractProjectFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.s
+.PHONY : src/services/extractors/extractProjectFunctions.cpp.s
+
+src/services/extractors/extractProjectPrimitives.o: src/services/extractors/extractProjectPrimitives.cpp.o
+.PHONY : src/services/extractors/extractProjectPrimitives.o
+
+# target to build an object file
+src/services/extractors/extractProjectPrimitives.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o
+.PHONY : src/services/extractors/extractProjectPrimitives.cpp.o
+
+src/services/extractors/extractProjectPrimitives.i: src/services/extractors/extractProjectPrimitives.cpp.i
+.PHONY : src/services/extractors/extractProjectPrimitives.i
+
+# target to preprocess a source file
+src/services/extractors/extractProjectPrimitives.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.i
+.PHONY : src/services/extractors/extractProjectPrimitives.cpp.i
+
+src/services/extractors/extractProjectPrimitives.s: src/services/extractors/extractProjectPrimitives.cpp.s
+.PHONY : src/services/extractors/extractProjectPrimitives.s
+
+# target to generate assembly for a file
+src/services/extractors/extractProjectPrimitives.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.s
+.PHONY : src/services/extractors/extractProjectPrimitives.cpp.s
+
+src/services/extractors/extractProjectStructure.o: src/services/extractors/extractProjectStructure.cpp.o
+.PHONY : src/services/extractors/extractProjectStructure.o
+
+# target to build an object file
+src/services/extractors/extractProjectStructure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o
+.PHONY : src/services/extractors/extractProjectStructure.cpp.o
+
+src/services/extractors/extractProjectStructure.i: src/services/extractors/extractProjectStructure.cpp.i
+.PHONY : src/services/extractors/extractProjectStructure.i
+
+# target to preprocess a source file
+src/services/extractors/extractProjectStructure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.i
+.PHONY : src/services/extractors/extractProjectStructure.cpp.i
+
+src/services/extractors/extractProjectStructure.s: src/services/extractors/extractProjectStructure.cpp.s
+.PHONY : src/services/extractors/extractProjectStructure.s
+
+# target to generate assembly for a file
+src/services/extractors/extractProjectStructure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readmify.dir/build.make CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.s
+.PHONY : src/services/extractors/extractProjectStructure.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -233,6 +329,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/services/extractors/extractProjectDependencies.o"
+	@echo "... src/services/extractors/extractProjectDependencies.i"
+	@echo "... src/services/extractors/extractProjectDependencies.s"
+	@echo "... src/services/extractors/extractProjectFunctions.o"
+	@echo "... src/services/extractors/extractProjectFunctions.i"
+	@echo "... src/services/extractors/extractProjectFunctions.s"
+	@echo "... src/services/extractors/extractProjectPrimitives.o"
+	@echo "... src/services/extractors/extractProjectPrimitives.i"
+	@echo "... src/services/extractors/extractProjectPrimitives.s"
+	@echo "... src/services/extractors/extractProjectStructure.o"
+	@echo "... src/services/extractors/extractProjectStructure.i"
+	@echo "... src/services/extractors/extractProjectStructure.s"
 .PHONY : help
 
 

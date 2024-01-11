@@ -11,6 +11,10 @@ set(SOURCE_FILES
         src/main.cpp
         src/cli/Interface.cpp
         src/cli/components/LoadingBar.cpp
+        src/services/extractors/extractProjectDependencies.cpp
+        src/services/extractors/extractProjectPrimitives.cpp
+        src/services/extractors/extractProjectStructure.cpp
+        src/services/extractors/extractProjectFunctions.cpp
         )
 
 # Add the executable to the ../bin directory
@@ -23,7 +27,7 @@ set_target_properties(readmify PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURC
 
 # Add any other necessary configurations
 
-# Add include directory to the include path that is in src/include
+# Add include directories to the include path
 target_include_directories(readmify PRIVATE src/include src/constants src/cli/components src src/services)
 
 # Define a custom target to generate documentation

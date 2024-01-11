@@ -7,6 +7,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/readmify.dir/src/cli/components/LoadingBar.cpp.o.d"
   "CMakeFiles/readmify.dir/src/main.cpp.o"
   "CMakeFiles/readmify.dir/src/main.cpp.o.d"
+  "CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o"
+  "CMakeFiles/readmify.dir/src/services/extractors/extractProjectDependencies.cpp.o.d"
+  "CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o"
+  "CMakeFiles/readmify.dir/src/services/extractors/extractProjectFunctions.cpp.o.d"
+  "CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o"
+  "CMakeFiles/readmify.dir/src/services/extractors/extractProjectPrimitives.cpp.o.d"
+  "CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o"
+  "CMakeFiles/readmify.dir/src/services/extractors/extractProjectStructure.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,5 @@
 #include "Extractors.h"
+#include <thread>
 
 ProjectPrimitiveData Extractors::extractProjectPrimitives(float *progress)
 {
@@ -6,15 +7,17 @@ ProjectPrimitiveData Extractors::extractProjectPrimitives(float *progress)
 
     // 1. Find the current directory's name and set it to project name
     projectData.projectName = getCurrentDirectoryName();
-    *progress += 5;
+    *progress += 3;
 
     // 2. Find the most used programming language from analyses of subdirectories
     projectData.projectLanguage = findMostUsedLanguage();
-    *progress += 5;
+    *progress += 3;
 
     // 3. Take the quote of the day from the specified port and set it to project description
     projectData.projectDescription = getProjectDescription(17); // Replace with the actual port number
-    *progress += 5;
+    *progress += 3;
+
+    std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
     return projectData;
 }

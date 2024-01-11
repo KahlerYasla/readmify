@@ -13,7 +13,7 @@ class Extractors
 {
 public:
     static ProjectPrimitiveData extractProjectPrimitives(float *progress);
-    static ProjectStructureTreeNode extractProjectStructure(float *progress);
+    static ProjectStructureTree extractProjectStructure(float *progress);
 
 private:
     static std::string getCurrentDirectoryName();
