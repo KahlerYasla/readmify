@@ -10,11 +10,11 @@ void LoadingBar::displayLoadingBar(int total, int progress)
     {
         if (i < filledWidth)
         {
-            printColored("blue", "█");
+            printColored("orange", "█");
         }
         else
         {
-            printColored("blue", "░");
+            printColored("orange", "░");
         }
     }
 

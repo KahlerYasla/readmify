@@ -11,6 +11,7 @@ const std::map<std::string, std::string> colorMap = {
     {"magenta", "\033[1;35m"},
     {"cyan", "\033[1;36m"},
     {"white", "\033[1;37m"},
+    {"orange", "\033[38;5;208m"},
     {"reset", "\033[0m"},
     // backgrounded colors
     {"bgRed", "\033[41m"},
@@ -20,5 +21,6 @@ const std::map<std::string, std::string> colorMap = {
     {"bgMagenta", "\033[45m"},
     {"bgCyan", "\033[46m"},
     {"bgWhite", "\033[47m"},
+    {"bgOrange", "\033[48;5;208m"},
     {"bgReset", "\033[49m"},
 };

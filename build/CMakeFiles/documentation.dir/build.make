@@ -67,7 +67,7 @@ include CMakeFiles/documentation.dir/compiler_depend.make
 include CMakeFiles/documentation.dir/progress.make
 
 CMakeFiles/documentation:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/kahler/CProjects/readmify/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating documentation with readmify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --yellow --bold --progress-dir=/Users/kahler/CProjects/readmify/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating documentation with readmify"
 	cd /Users/kahler/CProjects/readmify && ../bin/readmify
 
 documentation: CMakeFiles/documentation

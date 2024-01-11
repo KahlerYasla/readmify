@@ -58,6 +58,8 @@
         "variant": "cpp",
         "vector": "cpp",
         "algorithm": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "unordered_set": "cpp",
+        "filesystem": "cpp"
     }
 }

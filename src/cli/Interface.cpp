@@ -9,23 +9,36 @@ void Interface::displayCLI()
 {
     std::string projectName = "${projectName}";
 
-    printColored("blue", "\nReadmify - A tool to generate Readme.md file for your project | github.com/KahlerYasla");
+    printColored("red", "\nReadmify - A tool to generate Readme.md file for your project | github.com/KahlerYasla | ✈▐▐");
 
-    printColored("", "\n••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••");
+    printDivider();
 
     std::string pathOfReadme = projectName + "/Readme.md";
 
-    std::cout << "\nYour Readme.md file will be generated at " << pathOfReadme;
+    printColored("orange", "Your Readme.md file will be generated at: " + pathOfReadme);
 
-    printColored("", "\n••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••\n");
+    printDivider();
+}
+
+void Interface::displayResult()
+{
+    // Project primitives
+    printColored("bgOrange", "Project primitives:\n");
+
+    std::string projectName = projectPrimitiveData.projectName;
+    std::string projectDescription = projectPrimitiveData.projectDescription;
+    std::string projectLanguage = projectPrimitiveData.projectLanguage;
+
+    printColored("orange", "Project name: " + projectName + "\n");
+    printColored("orange", "Project description: " + projectDescription + "\n");
+    printColored("orange", "Project language: " + projectLanguage);
+
+    printDivider();
+
+    // Project structure
 }
 
 void Interface::updateLoadingBar(float progress)
 {
     loadingBar.displayLoadingBar(100, progress);
-}
-
-void Interface::printResult(std::string result)
-{
-    printColored("blue", result);
 }
